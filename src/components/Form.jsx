@@ -61,7 +61,7 @@ function Form( { setRates, setArrival, setDeparture, rates } ) {
         };
 
         try {
-           const res = await fetch('http://localhost:8000/rates.php', {
+           const res = await fetch('http://localhost:8000/index.php', {
                method: 'POST',
                headers: { 'Content-Type': 'application/json' },
                body: JSON.stringify(payload)
