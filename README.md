@@ -1,4 +1,4 @@
-#To run the assignment in CodeSpace
+To run the assignment in CodeSpace
 1. Open two terminals  
 2. In the first terminal run `npm install` then `npm run dev`  
 3. Go to the `api` folder  
@@ -8,8 +8,7 @@
     (`https://dev.gondwana-collection.com/Web-Store/Rates/Rates.php`),
     the API may not return data when run inside GitHub Codespaces.
 
-#To run the assignment locally
-To test fully:
+To run the assignment locally
 1. Clone the repo locally
 2. Start the frontend with `npm install` and `npm run dev`
 3. Run the backend from the `api/` folder using: `php -S localhost:8000`
